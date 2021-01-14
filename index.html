@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <section>
+            <label for="title">ToDoList</label>
+            <input type="text" id="title" name="title" placeholder="添加ToDo" required="required" autocomplete="off" style="font-size: 14px;" />
+            <!-- 模态框 -->
+            <!-- <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">toDolist</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>请输入您要的操作</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- /.modal -->
+        </section>
+    </header>
+    <section class="a">
+        <h2>正在进行 <span id="todocount"></span></h2>
+        <ol id="todolist" class="demo-box">
+
+        </ol>
+        <h2>已经完成 <span id="donecount"></span></h2>
+        <ul id="donelist">
+
+        </ul>
+    </section>
+    <footer>
+        Copyright &copy; 2014 todolist.cn
+    </footer>
+</body>
+
+</html>
